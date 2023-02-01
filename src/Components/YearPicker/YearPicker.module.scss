@@ -1,0 +1,23 @@
+@import '../../Shared/variables.scss';
+
+.wrap {
+  display: flex;
+  position: relative;
+  flex-shrink: 0;
+  min-width: 110px;
+  height: 50px;
+  background: $color-white;
+  border: 1px solid $color-white;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  transition: width 0.1s linear;
+}
+
+.select {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  outline: none;
+  font-size: 16px;
+}

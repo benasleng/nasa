@@ -1,0 +1,13 @@
+@import './Shared/variables.scss';
+
+.error {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  padding: 20px;
+  border-radius: 10px;
+  background: $color-danger;
+  color: $color-white;
+  text-align: center;
+  transform: translateX(-50%);
+}
